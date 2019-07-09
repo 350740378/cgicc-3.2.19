@@ -1,0 +1,228 @@
+﻿生成启动时间为 2019/7/9 星期二 17:05:18。
+     1>项目“D:\ABNF\cgi\cgicc-3.2.19\win\cgicc.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.. /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CGICC_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\cgicc\Cgicc.cpp ..\cgicc\CgiEnvironment.cpp ..\cgicc\CgiInput.cpp ..\cgicc\CgiUtils.cpp ..\cgicc\FormEntry.cpp ..\cgicc\FormFile.cpp ..\cgicc\HTMLAttribute.cpp ..\cgicc\HTMLAttributeList.cpp ..\cgicc\HTMLDoctype.cpp ..\cgicc\HTMLElement.cpp ..\cgicc\HTMLElementList.cpp ..\cgicc\HTTPContentHeader.cpp ..\cgicc\HTTPCookie.cpp ..\cgicc\HTTPHeader.cpp ..\cgicc\HTTPHTMLHeader.cpp ..\cgicc\HTTPPlainHeader.cpp ..\cgicc\HTTPRedirectHeader.cpp ..\cgicc\HTTPResponseHeader.cpp ..\cgicc\HTTPStatusHeader.cpp ..\cgicc\MStreamable.cpp
+         Cgicc.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormEntry.h(321): warning C4251: “cgicc::FormEntry::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormEntry”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormEntry.h(322): warning C4251: “cgicc::FormEntry::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormEntry”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(229): warning C4251: “cgicc::FormFile::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(230): warning C4251: “cgicc::FormFile::fFilename”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(231): warning C4251: “cgicc::FormFile::fDataType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(232): warning C4251: “cgicc::FormFile::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(551): warning C4251: “cgicc::CgiEnvironment::fServerSoftware”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(552): warning C4251: “cgicc::CgiEnvironment::fServerName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(553): warning C4251: “cgicc::CgiEnvironment::fGatewayInterface”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(554): warning C4251: “cgicc::CgiEnvironment::fServerProtocol”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(555): warning C4251: “cgicc::CgiEnvironment::fRequestMethod”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(556): warning C4251: “cgicc::CgiEnvironment::fPathInfo”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(557): warning C4251: “cgicc::CgiEnvironment::fPathTranslated”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(558): warning C4251: “cgicc::CgiEnvironment::fScriptName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(559): warning C4251: “cgicc::CgiEnvironment::fQueryString”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(560): warning C4251: “cgicc::CgiEnvironment::fRemoteHost”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(561): warning C4251: “cgicc::CgiEnvironment::fRemoteAddr”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(562): warning C4251: “cgicc::CgiEnvironment::fAuthType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(563): warning C4251: “cgicc::CgiEnvironment::fRemoteUser”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(564): warning C4251: “cgicc::CgiEnvironment::fRemoteIdent”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(565): warning C4251: “cgicc::CgiEnvironment::fContentType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(566): warning C4251: “cgicc::CgiEnvironment::fAccept”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(567): warning C4251: “cgicc::CgiEnvironment::fUserAgent”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(568): warning C4251: “cgicc::CgiEnvironment::fPostData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(569): warning C4251: “cgicc::CgiEnvironment::fRedirectRequest”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(570): warning C4251: “cgicc::CgiEnvironment::fRedirectURL”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(571): warning C4251: “cgicc::CgiEnvironment::fRedirectStatus”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(572): warning C4251: “cgicc::CgiEnvironment::fReferrer”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(573): warning C4251: “cgicc::CgiEnvironment::fCookie”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(575): warning C4251: “cgicc::CgiEnvironment::fAcceptLanguageString”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+         CgiEnvironment.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(551): warning C4251: “cgicc::CgiEnvironment::fServerSoftware”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(552): warning C4251: “cgicc::CgiEnvironment::fServerName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(553): warning C4251: “cgicc::CgiEnvironment::fGatewayInterface”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(554): warning C4251: “cgicc::CgiEnvironment::fServerProtocol”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(555): warning C4251: “cgicc::CgiEnvironment::fRequestMethod”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(556): warning C4251: “cgicc::CgiEnvironment::fPathInfo”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(557): warning C4251: “cgicc::CgiEnvironment::fPathTranslated”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(558): warning C4251: “cgicc::CgiEnvironment::fScriptName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(559): warning C4251: “cgicc::CgiEnvironment::fQueryString”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(560): warning C4251: “cgicc::CgiEnvironment::fRemoteHost”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(561): warning C4251: “cgicc::CgiEnvironment::fRemoteAddr”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(562): warning C4251: “cgicc::CgiEnvironment::fAuthType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(563): warning C4251: “cgicc::CgiEnvironment::fRemoteUser”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(564): warning C4251: “cgicc::CgiEnvironment::fRemoteIdent”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(565): warning C4251: “cgicc::CgiEnvironment::fContentType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(566): warning C4251: “cgicc::CgiEnvironment::fAccept”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(567): warning C4251: “cgicc::CgiEnvironment::fUserAgent”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(568): warning C4251: “cgicc::CgiEnvironment::fPostData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(569): warning C4251: “cgicc::CgiEnvironment::fRedirectRequest”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(570): warning C4251: “cgicc::CgiEnvironment::fRedirectURL”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(571): warning C4251: “cgicc::CgiEnvironment::fRedirectStatus”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(572): warning C4251: “cgicc::CgiEnvironment::fReferrer”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(573): warning C4251: “cgicc::CgiEnvironment::fCookie”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(575): warning C4251: “cgicc::CgiEnvironment::fAcceptLanguageString”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>..\cgicc\CgiEnvironment.cpp(72): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : 参见“getenv”的声明
+     1>..\cgicc\CgiEnvironment.cpp(330): warning C4800: “unsigned long”: 将值强制为布尔值“true”或“false”(性能警告)
+         CgiInput.cpp
+     1>..\cgicc\CgiInput.cpp(51): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : 参见“getenv”的声明
+         CgiUtils.cpp
+         FormEntry.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormEntry.h(321): warning C4251: “cgicc::FormEntry::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormEntry”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormEntry.h(322): warning C4251: “cgicc::FormEntry::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormEntry”的客户端使用
+     1>..\cgicc\FormEntry.cpp(146): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         FormFile.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(229): warning C4251: “cgicc::FormFile::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(230): warning C4251: “cgicc::FormFile::fFilename”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(231): warning C4251: “cgicc::FormFile::fDataType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(232): warning C4251: “cgicc::FormFile::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+         HTMLAttribute.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(231): warning C4251: “cgicc::HTMLAttribute::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(232): warning C4251: “cgicc::HTMLAttribute::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+         HTMLAttributeList.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(231): warning C4251: “cgicc::HTMLAttribute::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(232): warning C4251: “cgicc::HTMLAttribute::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+         HTMLDoctype.cpp
+         HTMLElement.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(231): warning C4251: “cgicc::HTMLAttribute::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(232): warning C4251: “cgicc::HTMLAttribute::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLElement.h(375): warning C4251: “cgicc::HTMLElement::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLElement”的客户端使用
+         HTMLElementList.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(231): warning C4251: “cgicc::HTMLAttribute::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(232): warning C4251: “cgicc::HTMLAttribute::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLElement.h(375): warning C4251: “cgicc::HTMLElement::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLElement”的客户端使用
+         HTTPContentHeader.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(132): warning C4251: “cgicc::HTTPHeader::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(133): warning C4251: “cgicc::HTTPHeader::fCookies”: class“std::vector<cgicc::HTTPCookie,std::allocator<_Ty>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+                 with
+                 [
+                     _Ty=cgicc::HTTPCookie
+                 ]
+         HTTPCookie.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+         HTTPHeader.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(132): warning C4251: “cgicc::HTTPHeader::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(133): warning C4251: “cgicc::HTTPHeader::fCookies”: class“std::vector<cgicc::HTTPCookie,std::allocator<_Ty>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+                 with
+                 [
+                     _Ty=cgicc::HTTPCookie
+                 ]
+         HTTPHTMLHeader.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(132): warning C4251: “cgicc::HTTPHeader::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(133): warning C4251: “cgicc::HTTPHeader::fCookies”: class“std::vector<cgicc::HTTPCookie,std::allocator<_Ty>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+                 with
+                 [
+                     _Ty=cgicc::HTTPCookie
+                 ]
+         HTTPPlainHeader.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(132): warning C4251: “cgicc::HTTPHeader::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(133): warning C4251: “cgicc::HTTPHeader::fCookies”: class“std::vector<cgicc::HTTPCookie,std::allocator<_Ty>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+                 with
+                 [
+                     _Ty=cgicc::HTTPCookie
+                 ]
+         HTTPRedirectHeader.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(132): warning C4251: “cgicc::HTTPHeader::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(133): warning C4251: “cgicc::HTTPHeader::fCookies”: class“std::vector<cgicc::HTTPCookie,std::allocator<_Ty>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+                 with
+                 [
+                     _Ty=cgicc::HTTPCookie
+                 ]
+         HTTPResponseHeader.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPResponseHeader.h(241): warning C4251: “cgicc::HTTPResponseHeader::fHTTPVersion”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPResponseHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPResponseHeader.h(243): warning C4251: “cgicc::HTTPResponseHeader::fReasonPhrase”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPResponseHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPResponseHeader.h(244): warning C4251: “cgicc::HTTPResponseHeader::fHeaders”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“cgicc::HTTPResponseHeader”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPResponseHeader.h(245): warning C4251: “cgicc::HTTPResponseHeader::fCookies”: class“std::vector<cgicc::HTTPCookie,std::allocator<_Ty>>”需要有 dll 接口由 class“cgicc::HTTPResponseHeader”的客户端使用
+                 with
+                 [
+                     _Ty=cgicc::HTTPCookie
+                 ]
+         HTTPStatusHeader.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(132): warning C4251: “cgicc::HTTPHeader::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(133): warning C4251: “cgicc::HTTPHeader::fCookies”: class“std::vector<cgicc::HTTPCookie,std::allocator<_Ty>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+                 with
+                 [
+                     _Ty=cgicc::HTTPCookie
+                 ]
+         MStreamable.cpp
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\ABNF\cgi\cgicc-3.2.19\win\x64\Release\cgicc.dll) does not match the Linker's OutputFile property value (D:\ABNF\cgi\cgicc-3.2.19\win\Release\cgicc.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\cgicc.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\ABNF\cgi\cgicc-3.2.19\win\x64\Release\cgicc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\cgicc.lib" /MACHINE:X64 /DLL .\Release\Cgicc.obj
+         .\Release\CgiEnvironment.obj
+         .\Release\CgiInput.obj
+         .\Release\CgiUtils.obj
+         .\Release\FormEntry.obj
+         .\Release\FormFile.obj
+         .\Release\HTMLAttribute.obj
+         .\Release\HTMLAttributeList.obj
+         .\Release\HTMLDoctype.obj
+         .\Release\HTMLElement.obj
+         .\Release\HTMLElementList.obj
+         .\Release\HTTPContentHeader.obj
+         .\Release\HTTPCookie.obj
+         .\Release\HTTPHeader.obj
+         .\Release\HTTPHTMLHeader.obj
+         .\Release\HTTPPlainHeader.obj
+         .\Release\HTTPRedirectHeader.obj
+         .\Release\HTTPResponseHeader.obj
+         .\Release\HTTPStatusHeader.obj
+         .\Release\MStreamable.obj
+            正在创建库 .\Release\cgicc.lib 和对象 .\Release\cgicc.exp
+         cgicc.vcxproj -> D:\ABNF\cgi\cgicc-3.2.19\win\x64\Release\cgicc.dll
+     1>已完成生成项目“D:\ABNF\cgi\cgicc-3.2.19\win\cgicc.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.77

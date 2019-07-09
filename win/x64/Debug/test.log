@@ -1,0 +1,83 @@
+﻿生成启动时间为 2019/7/9 星期二 17:04:10。
+     1>项目“D:\ABNF\cgi\cgicc-3.2.19\win\test.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (cgicc.vcxproj, cookie.vcxproj, dns.vcxproj, example.vcxproj, upload.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.. /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\test___Win32_Debug\\" /Fd".\test___Win32_Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\demo\test.cpp
+         test.cpp
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormEntry.h(321): warning C4251: “cgicc::FormEntry::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormEntry”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormEntry.h(322): warning C4251: “cgicc::FormEntry::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormEntry”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(229): warning C4251: “cgicc::FormFile::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(230): warning C4251: “cgicc::FormFile::fFilename”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(231): warning C4251: “cgicc::FormFile::fDataType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\FormFile.h(232): warning C4251: “cgicc::FormFile::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::FormFile”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(357): warning C4251: “cgicc::HTTPCookie::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(358): warning C4251: “cgicc::HTTPCookie::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(359): warning C4251: “cgicc::HTTPCookie::fComment”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(360): warning C4251: “cgicc::HTTPCookie::fDomain”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPCookie.h(362): warning C4251: “cgicc::HTTPCookie::fPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPCookie”的客户端使用
+     1>F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(652): warning C4275: 非 dll 接口 struct“std::_Container_base12”用作 dll 接口 class“std::_Vector_val<std::_Simple_types<cgicc::HTTPCookie>>”的基
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(76) : 参见“std::_Container_base12”的声明
+                 d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(52): 参见对正在编译的类 模板 实例化“std::vector<cgicc::HTTPCookie,std::allocator<_Ty>>”的引用
+                 with
+                 [
+                     _Ty=cgicc::HTTPCookie
+                 ]
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(551): warning C4251: “cgicc::CgiEnvironment::fServerSoftware”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(552): warning C4251: “cgicc::CgiEnvironment::fServerName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(553): warning C4251: “cgicc::CgiEnvironment::fGatewayInterface”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(554): warning C4251: “cgicc::CgiEnvironment::fServerProtocol”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(555): warning C4251: “cgicc::CgiEnvironment::fRequestMethod”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(556): warning C4251: “cgicc::CgiEnvironment::fPathInfo”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(557): warning C4251: “cgicc::CgiEnvironment::fPathTranslated”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(558): warning C4251: “cgicc::CgiEnvironment::fScriptName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(559): warning C4251: “cgicc::CgiEnvironment::fQueryString”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(560): warning C4251: “cgicc::CgiEnvironment::fRemoteHost”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(561): warning C4251: “cgicc::CgiEnvironment::fRemoteAddr”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(562): warning C4251: “cgicc::CgiEnvironment::fAuthType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(563): warning C4251: “cgicc::CgiEnvironment::fRemoteUser”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(564): warning C4251: “cgicc::CgiEnvironment::fRemoteIdent”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(565): warning C4251: “cgicc::CgiEnvironment::fContentType”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(566): warning C4251: “cgicc::CgiEnvironment::fAccept”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(567): warning C4251: “cgicc::CgiEnvironment::fUserAgent”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(568): warning C4251: “cgicc::CgiEnvironment::fPostData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(569): warning C4251: “cgicc::CgiEnvironment::fRedirectRequest”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(570): warning C4251: “cgicc::CgiEnvironment::fRedirectURL”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(571): warning C4251: “cgicc::CgiEnvironment::fRedirectStatus”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(572): warning C4251: “cgicc::CgiEnvironment::fReferrer”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(573): warning C4251: “cgicc::CgiEnvironment::fCookie”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\CgiEnvironment.h(575): warning C4251: “cgicc::CgiEnvironment::fAcceptLanguageString”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::CgiEnvironment”的客户端使用
+     1>F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(652): warning C4275: 非 dll 接口 struct“std::_Container_base12”用作 dll 接口 class“std::_Vector_val<std::_Simple_types<cgicc::FormEntry>>”的基
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(76) : 参见“std::_Container_base12”的声明
+                 D:\ABNF\cgi\cgicc-3.2.19\cgicc/Cgicc.h(55): 参见对正在编译的类 模板 实例化“std::vector<cgicc::FormEntry,std::allocator<_Ty>>”的引用
+                 with
+                 [
+                     _Ty=cgicc::FormEntry
+                 ]
+     1>F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(652): warning C4275: 非 dll 接口 struct“std::_Container_base12”用作 dll 接口 class“std::_Vector_val<std::_Simple_types<cgicc::FormFile>>”的基
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(76) : 参见“std::_Container_base12”的声明
+                 D:\ABNF\cgi\cgicc-3.2.19\cgicc/Cgicc.h(56): 参见对正在编译的类 模板 实例化“std::vector<cgicc::FormFile,std::allocator<_Ty>>”的引用
+                 with
+                 [
+                     _Ty=cgicc::FormFile
+                 ]
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTTPHeader.h(132): warning C4251: “cgicc::HTTPHeader::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTTPHeader”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(231): warning C4251: “cgicc::HTMLAttribute::fName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+     1>d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttribute.h(232): warning C4251: “cgicc::HTMLAttribute::fValue”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLAttribute”的客户端使用
+     1>F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(652): warning C4275: 非 dll 接口 struct“std::_Container_base12”用作 dll 接口 class“std::_Vector_val<std::_Simple_types<cgicc::HTMLAttribute>>”的基
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(76) : 参见“std::_Container_base12”的声明
+                 d:\abnf\cgi\cgicc-3.2.19\cgicc\HTMLAttributeList.h(52): 参见对正在编译的类 模板 实例化“std::vector<cgicc::HTMLAttribute,std::allocator<_Ty>>”的引用
+                 with
+                 [
+                     _Ty=cgicc::HTMLAttribute
+                 ]
+     1>D:\ABNF\cgi\cgicc-3.2.19\cgicc/HTMLElement.h(375): warning C4251: “cgicc::HTMLElement::fData”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cgicc::HTMLElement”的客户端使用
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\ABNF\cgi\cgicc-3.2.19\win\x64\Debug\test.exe) does not match the Linker's OutputFile property value (D:\ABNF\cgi\cgicc-3.2.19\win\test___Win32_Debug\test.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\test___Win32_Debug\test.exe" /INCREMENTAL /NOLOGO /LIBPATH:Debug kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ABNF\cgi\cgicc-3.2.19\win\x64\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ABNF\cgi\cgicc-3.2.19\win\x64\Debug\test.lib" /MACHINE:X64 .\test___Win32_Debug\test.obj
+         "D:\ABNF\cgi\cgicc-3.2.19\win\Debug\cgicc.lib"
+         test.vcxproj -> D:\ABNF\cgi\cgicc-3.2.19\win\x64\Debug\test.exe
+     1>已完成生成项目“D:\ABNF\cgi\cgicc-3.2.19\win\test.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.82
