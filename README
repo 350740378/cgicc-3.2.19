@@ -1,3 +1,11 @@
+ReadMe for win:
+download cgic software from:ftp://ftp.gnu.org/gnu/cgicc/
+document:http://www.gnu.org/software/cgicc/doc/index.html
+another useful website:https://www.runoob.com/cplusplus/cpp-web-programming.html
+VS2013 steps:
+1.open cgicc-3.2.19\win\cgicc.dsw with VS2013
+2.rename CgiDefs.h.in to CgiDefs.h
+================================================================================
 README for GNU cgicc
 ====================
 
